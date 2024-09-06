@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-//import Footer from './components/Navbar/Footer/Footer.jsx'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar.jsx'
 import Coin from './pages/Coin/Coin.jsx'
 import Home from './pages/Home/Home.jsx'
 import Companies from './pages/News/Companies.jsx'
