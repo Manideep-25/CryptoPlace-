@@ -1,0 +1,122 @@
+.home{
+  padding:0px 10px;
+  padding-bottom: 100px;
+}
+
+.home-container{
+  max-width: 600px;
+  margin:80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap:30px;
+}
+
+.home-container h1{
+  font-size: max(4vw, 36px);
+}
+
+.home-container p{
+  width: 75%;
+  color:#e3e3e3;
+  line-height: 1.5;
+}
+
+.home-container form{
+  padding: 8px;
+  width:80%;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
+
+.home-container input{
+  flex:1;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  background-color:#1a1a1a;
+  color:white;
+}
+
+.home-container button{
+  border: none;
+  background: #7927ff;
+  color:white;
+  font-size: 16px;
+  padding:10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crypto-table{
+  max-width:800px;
+  margin:auto;
+  background: linear-gradient(rgba(17, 16, 17, 0.338), rgba(17, 16, 17, 0.338));
+  border-radius: 15px;
+}
+
+.table-layout{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.market-cap{
+  text-align: right;
+}
+
+.table-layout:last-child{
+  border: none;
+}
+
+.table-layout div{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.table-layout div img{
+  width: 35px;
+}
+
+.table-layout .green{
+  color:#00d515;
+  text-align: center;
+}
+
+.table-layout .red{
+  color:red;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+  .table-layout{
+    grid-template-columns: 0.5fr 3fr 1fr 1fr;
+  }
+  .market-cap{
+    display: none;
+  }
+}
+
+@media(max-width: 500px){
+  .table-layout div img{
+    width:25px;
+  }
+
+  .table-layout{
+    font-size:13px;
+  }
+
+  .home-container form input{
+    width:100px;
+  }
+}
