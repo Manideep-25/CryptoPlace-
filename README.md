@@ -1,7 +1,7 @@
 # Crypto Place
 
 ## Overview
-[Crypto Place]() is a React-based web application that provides real-time cryptocurrency market insights. It fetches data from the **CoinGecko API** to display live price updates, interactive graphs, trending cryptocurrencies, and companies holding significant amounts of cryptocurrency.
+[Crypto Place](https://main--moonlit-starship-c5912f.netlify.app/) is a React-based web application that provides real-time cryptocurrency market insights. It fetches data from the **CoinGecko API** to display live price updates, interactive graphs, trending cryptocurrencies, and companies holding significant amounts of cryptocurrency.
 
 ## Features
 - **Live Market Insights**: Fetches real-time cryptocurrency updates using the CoinGecko API.
@@ -20,7 +20,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/crypto-place.git
+   git clone https://github.com/Manideep-25/crypto-place.git
    cd crypto-place
    ```
 
@@ -44,7 +44,7 @@
 ## Screenshots
 Add screenshots of your application here:
 
-![Screenshot 1](public/Home_page)
+![Screenshot](public/Home_page)
 
 ## API Configuration
 The app fetches data from the **CoinGecko API**. No API key is required, but ensure you comply with their rate limits.
