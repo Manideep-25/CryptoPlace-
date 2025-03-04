@@ -46,7 +46,7 @@ Add screenshots of your application here:
 ![Screenshot](public/Home_page.jpg)
 
 ## API Configuration
-The app fetches data from the **CoinGecko API**. No API key is required, but ensure you comply with their rate limits.
+The app fetches data from the **CoinGecko API**. Ensure you comply with their rate limits.
 
 ## Contributing
 Feel free to submit issues and pull requests. Contributions are welcome!
