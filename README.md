@@ -13,7 +13,6 @@
 - **React**: Frontend framework for building the user interface.
 - **CoinGecko API**: Provides real-time cryptocurrency data.
 - **Recharts**: For rendering interactive price fluctuation graphs.
-- **CSS / Tailwind**: Used for styling components.
 - **React Router**: For navigation within the app.
 
 ## Installation
